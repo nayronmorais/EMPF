@@ -8,7 +8,7 @@ setup(
     name='empf',
     packages=find_packages(where='src/models'),
     package_dir={'': 'src/models'},
-    package_data={'': ['*.so'],
+    package_data={'': ['*.so']},
     include_package_data=True,
     install_requires=requirements,
     version='0.1.0',
